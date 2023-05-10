@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/project1.css">
+</head>
+<body>
+    <script>
+            $ = function(id) {
+    return document.getElementById(id); 
+    }
+
+    var show = function(id) {
+        $(id).style.display ='block';
+    }
+    var hide = function(id) {
+        $(id).style.display ='none';
+    }
+    </script>
+
+    <div class="title">
+        <h1>Quick Quiz</h1>
+    </div>
+    <div class="buttons">
+        <a href="quizgame.html">
+    <button class="play">Start Quiz</button>
+        </a>
+    <button class="help" onclick="show('popup')">Help</button>
+    <a href="credit.html">
+    <button class="credit">Credit</button>
+    </a>
+    <button type="button" class="exit" onclick="window.close();">Exit</button>
+    </div>
+
+    <div class="popup" id="popup">
+    <p>Answers: B - C - A - B - A - C</p>
+    <p><mark>Notice!</mark></p>
+    <p>This quiz does not provide IQ measures for the user, it is made for fun and to test your common knowledge only.</p>
+    <a href="#" onclick="hide('popup')">Close</a>
+    </div>
+
+</body>
+</html>

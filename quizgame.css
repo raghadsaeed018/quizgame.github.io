@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(141, 140, 140);
+}
+
+.title {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "ink free", italic;
+    display: inline-block;
+}
+
+
+.button {
+    color: white;
+    background-color: rgb(51, 51, 51);
+    border: 2px solid white;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor:pointer;
+    width: 150px;
+    padding: 8px;
+    margin-top: 20px;
+    margin-left: 18%;
+}
+
+.questions {
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-right: 50%;
+}
+
+.result {
+    margin-left: 18%;
+    font-size: 20px;
+}
+
+.back {
+    font-family: "Ink Free", italic
+}
+
+.pic {
+    width: 500px;
+    height: 500px;
+    margin-left: 55%;
+    position: absolute; left: 0; top: 100px;
+}
+
+.full, .mid, .bad {
+    visibility: hidden;
+}
+
+.msg {
+    font-family: "Ink Free", italic;
+    color: black;
+    font-size: 50px;
+    margin-left: 60%;
+    position: absolute; left: 0; top: 20px;
+}
+
+.hr {
+    transform: rotate(90deg);
+    height: 1%;
+  }
+
+
+
+  
