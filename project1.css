@@ -107,7 +107,7 @@ body {
     font-size: 16px;
   }
   
-    @media all and (max-width: 700px) {
+    @media all and (max-width: 500px) {
 
     .title {
         height: 90px; /* Earlier 120px*/
