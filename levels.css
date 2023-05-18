@@ -1,0 +1,154 @@
+.home {
+    position: absolute; left: 0; top: 0;
+    font-family: "Ink Free", italic;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.rectangle {
+    width: 400px;
+    height: 450px;
+    margin: 10px;
+    float: left;
+  }
+
+  #rectangle1 {
+    background-color: white;
+    filter: blur(1px);
+    opacity: 0.6;
+    border: 5px solid rgb(0, 0, 0);
+    position: absolute; left: 0; top: 170px;
+    border-radius: 10px;
+  }
+  
+  #rectangle2 {
+    background-color: white;
+    filter: blur(1px);
+    opacity: 0.6;
+    border: 5px solid rgb(0, 0, 0);
+    position: absolute; left: 34%; top: 170px;
+    border-radius: 10px;
+  }
+  
+  #rectangle3 {
+    background-color: white;
+    filter: blur(1px);
+    opacity: 0.6;
+    border: 5px solid rgb(0, 0, 0);
+    position: absolute; left: 68%; top: 170px;
+    border-radius: 10px;
+  }
+  
+  img {
+  
+    width: 100vw;
+    height: 100vh; 
+    max-width: 100%; 
+    max-height: 100%;
+  }
+  
+  .title {
+    position: absolute; left: 25%; top: 0;
+    font-size: 45px;
+    font-family: "Ink Free", italic;
+  
+  }
+  
+  .l1 {
+    color: black;
+    position: absolute; left: 150px; top: 190px;
+    font-size: 40px;
+    font-family: "Ink Free", italic;
+  }
+  
+  .l2 {
+    color: black;
+    position: absolute; left: 600px; top: 190px;
+    font-size: 40px;
+    font-family: "Ink Free", italic;
+  }
+  
+  .l3 {
+    color: black;
+    position: absolute; left: 1050px; top: 190px;
+    font-size: 40px;
+    font-family: "Ink Free", italic;
+  }
+  
+  .physical {
+    position: absolute; left: 25px; top: 250px;
+    font-size: 45px;
+    font-family: "Ink Free", italic;
+  }
+  
+  .earth {
+    position: absolute; left: 240px; top: 300px;
+    height: 150px;
+    width: 150px;
+  }
+  
+  .uno {
+    position: absolute; left: 120px; top: 540px;
+    color: rgb(29, 29, 54);
+    background-color: transparent;
+    border: 3px solid rgb(35, 35, 61);
+    padding: 16px 16px;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor:pointer;
+    margin-bottom: 4%;
+    width: 170px;
+  }
+  
+  .human {
+    position: absolute; left:480px; top: 250px;
+    font-size: 45px;
+    font-family: "Ink Free", italic;
+  }
+  
+  .dos {
+    position: absolute; left: 585px; top: 540px;
+    color: rgb(29, 29, 54);
+    background-color: transparent;
+    border: 3px solid rgb(35, 35, 61);
+    padding: 16px 16px;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor:pointer;
+    margin-bottom: 4%;
+    width: 170px;
+  }
+  
+  .npc {
+    position: absolute; left: 610px; top: 180px;
+    height: 400px;
+    width: 400px;
+  }
+  
+  .today {
+    position: absolute; left:970px; top: 230px;
+    font-size: 55px;
+    font-family: "Ink Free", italic;
+  }
+  
+  .flag {
+    position: absolute; left: 980px; top: 340px;
+    height: 200px;
+    width: 300px;
+  }
+  
+  .tres {
+    position: absolute; left: 1040px; top: 540px;
+    color: rgb(29, 29, 54);
+    background-color: transparent;
+    border: 3px solid rgb(35, 35, 61);
+    padding: 16px 16px;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor:pointer;
+    margin-bottom: 4%;
+    width: 170px;
+  }
